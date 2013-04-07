@@ -378,10 +378,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', Myriad, Calibri, sans-serif;
   font-weight: bold;
@@ -573,4 +569,8 @@ dd p:first-child {
 
 span.place {
   font-size: 75%;
+}
+
+#main_content a:hover {
+  text-decoration: underline;
 }
